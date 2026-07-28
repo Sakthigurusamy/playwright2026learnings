@@ -35,6 +35,22 @@ test("Login Method ", async({browser,page}) =>{
   await page.locator('input#email').fill(userName);
   await page.locator('input#password').fill(password);
   await page.locator('button#login-btn').click();
+  
+
+  //Assertions, handling other UI components like Dropdown, radio btns etc
+  
+
+
+
+
+
+
+
+
+
+
   await page.pause();
+
+
 
 });
