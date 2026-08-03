@@ -1,7 +1,6 @@
 //Create an Event and full booking flow 
 
 const { test ,expect} = require('@playwright/test');
-const { log } = require('node:console');
 
 //here we're using resuable helper function loginpage so that we can call whenever required in tests
 //and setting BASE_URL 
