@@ -17,6 +17,8 @@ export default defineConfig({
   //baseURL, trace
 
   use:{
+
+    actionTimeout: 8000,
     browserName: 'chromium',
 
     baseURL : "", //if any baseURL is there place here
