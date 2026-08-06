@@ -29,7 +29,11 @@ export default defineConfig({
 
     video : 'off', // other options on, on-first-retry 
 
-    headless : false 
+    headless : false,
+
+    launchOptions:{
+      slowMo : 1000 //adds 1 second delay between each Playwright action, useful for watching the test run
+    }
 
   },
 
